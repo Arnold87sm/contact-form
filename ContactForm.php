@@ -22,7 +22,7 @@
         $error = '<div class="alert alert-danger" role="alert"<p>There were an error(s) in your form:</p>' . $error . '</div>';
       }
       else{ //email address is good
-        $emailTo = "sap87sm@gmail.com";
+        $emailTo = "receiver-email@company.com";
         $subject = $_POST['subject'];
         $content = $_POST['content'];
         $headers = "From: " . $_POST['email'];
